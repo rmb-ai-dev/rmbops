@@ -9,21 +9,21 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg:         #ffffff;
-  --bg2:        #f7f8fc;
-  --bg3:        #f0f2f8;
-  --bg4:        #e2e6f0;
-  --border:     rgba(26,26,46,0.08);
-  --border2:    rgba(26,26,46,0.15);
+  --bg:         #080C0F;
+  --bg2:        #0D1317;
+  --bg3:        #121920;
+  --bg4:        #1A2530;
+  --border:     rgba(255,255,255,0.06);
+  --border2:    rgba(255,255,255,0.12);
 
-  --teal:       #1a1a2e;
-  --cyan:       #16213e;
+  --teal:       #00FFB2;
+  --cyan:       #00D4FF;
   --amber:      #FFB800;
   --red:        #FF4444;
 
-  --text:       #1a1a2e;
-  --text2:      #6b7a99;
-  --text3:      #a8b2c8;
+  --text:       #E8EDF2;
+  --text2:      #8A9BAD;
+  --text3:      #556070;
 
   --font-sans:  'Space Grotesk', sans-serif;
   --font-mono:  'JetBrains Mono', monospace;

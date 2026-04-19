@@ -28,9 +28,9 @@ const CONFIG = {
   // ── PRODUCTS / APPS ─────────────────────────────────────────
   products: [
     {
-      id:          "product-one",
-      name:        "Product One",
-      subdomain:   "product-one",
+      id:          "drillsafe",
+      name:        "DrillSafe",
+      subdomain:   "drillsafe",
       tagline:     "Well Control Compliance, Automated",
       description: "DrillSafe streamlines Well Control System surveys to ensure your crew meets every regulatory requirement—before an inspector ever steps on the rig.",
       features:    ["Automated survey workflows", "Regulatory gap analysis", "Audit-ready reporting", "Crew compliance dashboards"],
@@ -39,9 +39,9 @@ const CONFIG = {
       icon:        "shield",
     },
     {
-      id:          "product-two",
-      name:        "Product Two",
-      subdomain:   "product-two",
+      id:          "quizpro",
+      name:        "QuizPro",
+      subdomain:   "quizpro",
       tagline:     "Crew Assessment Built for the Field",
       description: "QuizPro delivers intelligent well control competency assessments that adapt to each crew member's role, experience level, and certification status.",
       features:    ["Role-based question banks", "Automated scoring & grading", "Certification tracking", "Progress analytics"],
