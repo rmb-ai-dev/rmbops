@@ -5,71 +5,56 @@
 
 const CONFIG = {
 
-  // ── BRAND ──────────────────────────────────────────────────
   company: {
     name:        "RMB Enterprise",
     tagline:     "AI-Powered Oilfield Engineering & Safety",
     description: "We build intelligent tools that keep oilfield crews safe, compliant, and operationally sharp.",
-    email:       "hello@yourdomain.com",        // ← replace
-    phone:       "+1 (000) 000-0000",           // ← replace
-    address:     "Houston, Texas, USA",         // ← replace
-    domain:      "yourdomain.com",              // ← replace after Cloudflare setup
-    linkedIn:    "https://linkedin.com/company/rmbenterprise", // ← replace
+    email:       "hello@rmbops.com",
+    phone:       "+1 (000) 000-0000",
+    address:     "Houston, Texas, USA",
+    domain:      "rmbops.com",
+    linkedIn:    "https://linkedin.com/company/rmbenterprise",
   },
 
-  // ── CALENDAR / DEMO BOOKING ─────────────────────────────────
-  // Sign up free at calendly.com, then paste your link below
-  calendlyUrl: "https://calendly.com/YOUR_HANDLE/demo",  // ← replace
+  calendlyUrl:       "https://calendly.com/YOUR_HANDLE/demo",
+  formspreeEndpoint: "https://formspree.io/f/YOUR_FORM_ID",
 
-  // ── CONTACT FORM (Formspree) ─────────────────────────────────
-  // Sign up free at formspree.io → New Form → copy the endpoint
-  formspreeEndpoint: "https://formspree.io/f/YOUR_FORM_ID", // ← replace
-
-  // ── PRODUCTS / APPS ─────────────────────────────────────────
   products: [
     {
-      id:          "drillsafe",
-      name:        "DrillSafe",
-      subdomain:   "drillsafe",
+      id:          "product-one",
+      name:        "Product One",
+      subdomain:   "product-one",
       tagline:     "Well Control Compliance, Automated",
-      description: "DrillSafe streamlines Well Control System surveys to ensure your crew meets every regulatory requirement—before an inspector ever steps on the rig.",
+      description: "Streamlines Well Control System surveys to ensure your crew meets every regulatory requirement — before an inspector ever steps on the rig.",
       features:    ["Automated survey workflows", "Regulatory gap analysis", "Audit-ready reporting", "Crew compliance dashboards"],
       badge:       "Well Control",
-      color:       "#00FFB2",   // teal-green accent
+      color:       "#00FFB2",
       icon:        "shield",
     },
     {
-      id:          "quizpro",
-      name:        "QuizPro",
-      subdomain:   "quizpro",
+      id:          "product-two",
+      name:        "Product Two",
+      subdomain:   "product-two",
       tagline:     "Crew Assessment Built for the Field",
-      description: "QuizPro delivers intelligent well control competency assessments that adapt to each crew member's role, experience level, and certification status.",
+      description: "Delivers intelligent well control competency assessments that adapt to each crew member's role, experience level, and certification status.",
       features:    ["Role-based question banks", "Automated scoring & grading", "Certification tracking", "Progress analytics"],
       badge:       "Training & Assessment",
-      color:       "#00D4FF",   // cyan accent
+      color:       "#00D4FF",
       icon:        "clipboard",
     },
     {
-      id:          "app3",
-      name:        "AppName3",           // ← replace when ready
-      subdomain:   "app3",               // ← replace
+      id:          "product-three",
+      name:        "Product Three",
+      subdomain:   "product-three",
       tagline:     "Coming Soon",
       description: "Another powerful tool for oilfield operations. Details coming soon.",
       features:    ["Feature 1", "Feature 2", "Feature 3", "Feature 4"],
       badge:       "Operations",
-      color:       "#FFB800",   // amber accent
+      color:       "#FFB800",
       icon:        "gear",
     },
   ],
 
-  // ── NAV LINKS ───────────────────────────────────────────────
-  nav: [
-    { label: "Products",  href: "#products" },
-    { label: "About",     href: "#about"    },
-    { label: "Contact",   href: "#contact"  },
-  ],
-
-  // ── STATS (hero section) ────────────────────────────────────
   stats: [
     { value: "99%",   label: "Regulatory Pass Rate" },
     { value: "3x",    label: "Faster Compliance Audits" },
@@ -79,5 +64,4 @@ const CONFIG = {
 
 };
 
-// Make available globally
 window.SITE = CONFIG;
