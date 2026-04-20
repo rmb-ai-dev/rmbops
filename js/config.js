@@ -28,7 +28,7 @@ const CONFIG = {
       description: "Streamlines Well Control System surveys to ensure your crew meets every regulatory requirement — before an inspector ever steps on the rig.",
       features:    ["Automated survey workflows", "Regulatory gap analysis", "Audit-ready reporting", "Crew compliance dashboards"],
       badge:       "Well Control",
-      color:       "#00FFB2",
+      color:       "#5B9EFF",
       icon:        "shield",
     },
     {
@@ -39,7 +39,7 @@ const CONFIG = {
       description: "Delivers intelligent well control competency assessments that adapt to each crew member's role, experience level, and certification status.",
       features:    ["Role-based question banks", "Automated scoring & grading", "Certification tracking", "Progress analytics"],
       badge:       "Training & Assessment",
-      color:       "#00D4FF",
+      color:       "#8EC5FF",
       icon:        "clipboard",
     },
     {
@@ -50,7 +50,7 @@ const CONFIG = {
       description: "Another powerful tool for oilfield operations. Details coming soon.",
       features:    ["Feature 1", "Feature 2", "Feature 3", "Feature 4"],
       badge:       "Operations",
-      color:       "#FFB800",
+      color:       "#A78BFA",
       icon:        "gear",
     },
   ],
