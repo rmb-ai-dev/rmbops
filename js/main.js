@@ -71,6 +71,7 @@ function buildProducts(products) {
       '<ul class="product-features">' +
         p.features.map(function(f){ return '<li>' + f + '</li>'; }).join('') +
       '</ul>' +
+      (p.url ? '<a href="' + p.url + '" target="_blank" rel="noopener noreferrer" class="btn-launch">Launch App →</a>' : '') +
       '<div class="product-card-footer">' +
         '<span class="product-domain">' + p.subdomain + '.' + window.SITE.company.domain + '</span>' +
         '<span class="product-cta" style="color:' + p.color + '">Learn more ' +
