@@ -74,9 +74,9 @@ function buildProducts(products) {
       (p.url ? '<a href="' + p.url + '" target="_blank" rel="noopener noreferrer" class="btn-launch">Launch App →</a>' : '') +
       '<div class="product-card-footer">' +
         '<span class="product-domain">' + p.subdomain + '.' + window.SITE.company.domain + '</span>' +
-        '<span class="product-cta" style="color:' + p.color + '">Learn more ' +
+        '<a href="' + (p.url || '#') + '" target="' + (p.url ? '_blank' : '_self') + '" rel="noopener noreferrer" class="product-cta" style="color:' + p.color + '">Learn more ' +
           '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>' +
-        '</span>' +
+        '</a>' +
       '</div>' +
     '</div>';
   }).join('');
